@@ -1,0 +1,14 @@
+{
+    "name": "Consent Task",
+    "exp_id": "consent-task",
+    "url": "https://www.github.com/earcanal/consent-task/",
+    "description":"Display study information and request informed consent from participant.",
+    "instructions": "N/A",
+    "template":"jspsych",
+    "cognitive_atlas_task_id": "",
+    "contributors": [
+                     "Paul Sharpe"
+                    ], 
+    "time":3,
+    "reference": []
+}
