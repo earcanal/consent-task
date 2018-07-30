@@ -42,14 +42,14 @@
     })(jQuery);
 
     var timeline = [];
-    var url = $.QueryString.param;
+    var url = $.QueryString.url;
     url = url ? url : "study_info.html";
     console.log('url = ' + url);
 
     // consent block
     var trial = {
       type:'external-html',
-      url: "study_info.html",
+      url: url,
       cont_btn: "start",
       check_fn: check_consent
     };
