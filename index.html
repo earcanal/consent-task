@@ -38,10 +38,7 @@
     timeline.push(trial);
 
     /* start the experiment */
-    jsPsych.init({
-      timeline: timeline
-    });
-    $( document ).ready(function() {
+    $(document).ready(function() {
       jsPsych.init({
                timeline: timeline,
                on_trial_finish: function(data) {
